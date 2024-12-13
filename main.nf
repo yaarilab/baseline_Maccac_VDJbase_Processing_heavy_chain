@@ -127,44 +127,7 @@ params.Clone_AIRRseq_Second_CreateGermlines.j_field = ""
 params.Clone_AIRRseq_Second_CreateGermlines.clone_field = ""
 
 
-// part 5
 
-// Process Parameters for changes_names_for_piglet:
-params.changes_names_for_piglet.chain = params.ndm_chain
-
-
-// Process Parameters for genotype_piglet_v_call:
-params.genotype_piglet_v_call.call = "v_call"
-
-
-
-// Process Parameters for genotype_piglet_d:
-params.genotype_piglet_d.call = "d_call"
-
-
-// Process Parameters for genotype_piglet_j_call:
-params.genotype_piglet_j_call.call = "j_call"
-
-
-
-params.make_igblast_ndm_third_alignment.ndm_chain = params.ndm_chain
-
-// Process Parameters for third_Alignment_IgBlastn:
-params.third_Alignment_IgBlastn.num_threads = "10"
-params.third_Alignment_IgBlastn.ig_seqtype = "Ig"
-params.third_Alignment_IgBlastn.outfmt = "MakeDb"
-params.third_Alignment_IgBlastn.num_alignments_V = "10"
-params.third_Alignment_IgBlastn.domain_system = "imgt"
-
-params.third_Alignment_MakeDb.failed = "true"
-params.third_Alignment_MakeDb.format = "airr"
-params.third_Alignment_MakeDb.regions = "default"
-params.third_Alignment_MakeDb.extended = "true"
-params.third_Alignment_MakeDb.asisid = "false"
-params.third_Alignment_MakeDb.asiscalls = "false"
-params.third_Alignment_MakeDb.inferjunction = "false"
-params.third_Alignment_MakeDb.partial = "false"
-params.third_Alignment_MakeDb.name_alignment = "_third_Alignment"
 
 
 if (!params.v_germline_file){params.v_germline_file = ""} 
